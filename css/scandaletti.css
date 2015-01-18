@@ -1,0 +1,456 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:18px;
+	background:url(../images/main_back_scandaletti/main_back_scandaletii.jpg) repeat;
+}
+
+
+.clearFloats {
+	clear:both;
+}
+
+h1, h2, h3, h4, h5, p, ul {
+	margin:0;
+	padding:0;
+}
+
+ul {
+	list-style:none;
+}
+
+	.mainBoxSiteScandaletti {
+		width:805px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+		.wrapperHeaderTopScandaletti {
+			width:inherit;
+			height:265px;
+		}
+		
+		.wrapperLogo {
+			width:156px;
+			height:263px;
+			float:left;
+		}
+		
+		.menuHeaderTop {
+			width:200px;
+			float:left;
+			position:relative;
+			top:180px;
+			margin-left:15px;
+		}
+		
+			.menuHeaderTop ul li.redLineBreakUp {
+				width:80px;
+				height:1px;
+				border-bottom:1px solid #990000;
+			}
+			
+				.menuHeaderTop ul li a {
+					color:#fff;
+					text-decoration:none;
+					font-weight:bold;
+				}
+				
+		.wrapperFlashBannerHeaderTop {
+			float:right;
+			margin-top:-60px;
+		}
+				
+/*mainMenu css code*/
+
+.containerMainMenu {
+	width:635px;
+	height:105px;
+	background:url(../images/back_main_menu/back_main_menu.jpg) no-repeat;
+	float:right;
+}
+
+	.wrapperMenuElements {
+		width:inherit;
+	}
+	
+	.cellMenuElement, .cellMenuElementDoubleRows {
+		width:140px;
+		float:left;
+		text-align:right;
+	}
+	
+		.cellMenuElement a, .cellMenuElementDoubleRows a {
+			text-decoration:none;
+			font-size:14px;
+			font-weight:bold;
+			position:relative;
+			top:70px;
+			color:#fff;
+		}
+		
+		.cellMenuElementDoubleRows a {
+			top:55px;
+		}
+		
+		.cellMenuElement a:hover, .cellMenuElementDoubleRows a:hover {
+			color:#FF0000;
+		}
+		
+	.delimiterMenuElements {
+		width:1px;
+		height:80px;
+		float:left;
+		background-color: #666666;
+		margin-left:15px;
+		position:relative;
+		top:10px;
+	}
+	
+	
+/*wrapper2Columns element css code - auxiliary code for pages with 1 column - see properties for wrapper1Column declared here*/
+
+.wrapper2Columns, .wrapper1Column {
+	width:635px;
+	float:right;
+	margin-top:23px;
+}
+
+.leftColumnWrapper2Columns {
+	background-color:#fff;
+}
+
+	.leftColumnWrapper2Columns {
+		width:312px;
+		float:left;
+	}
+	
+		.wrapperTextLeftColumnWrapper2Columns {
+			width:285px;
+			margin-left:auto;
+			margin-right:auto;
+			padding-top:25px;
+			padding-bottom:25px;
+		}
+		
+		.wrapperTextLeftColumnWrapper2Columns h1, .wrapperTextLeftColumnWrapper2Columns p {
+			color:#000;
+		}
+		
+		.wrapperTextLeftColumnWrapper2Columns h1 {
+			font-size:14px;
+			padding-bottom:15px;
+		}
+		
+			p.quoteParagraph {
+				font-weight:bold;
+				margin-top:25px;
+			}
+		
+		.containerPicLeftColumnWrapper2Columns {
+			width:120px;
+			float:left;
+			text-align:center;
+			padding-bottom:15px;
+			margin-left:15px;
+		}
+	
+	.rightColumnWrapper2Columns, .rightColumnWrapper2ColumnsWhiteBack {
+		width:320px;
+		float:right;
+	}
+	
+	.rightColumnWrapper2ColumnsWhiteBack {
+		background-color:#fff;
+	}
+	
+		.subColumnRightColumnWrapper2Columns {
+			width:155px;
+			float:left;
+			background-color:#fff;
+			margin-left:5px;
+		}
+		
+			.containerSmallPics, .containerSmallPicsLogosPartners {
+				width:133px;
+				margin-left:auto;
+				margin-right:auto;
+				padding-top:10px;
+				padding-bottom:10px;
+				text-align:center;
+			}
+			
+			.containerSmallPicsLogosPartners {
+				padding-top:35px;
+				padding-bottom:35px;
+			}
+			
+			
+/*css code for pages with 3 columns*/
+
+.wrapper3Columns {
+	width:inherit;
+}
+
+	.headerRedBackgroundWrapper3Columns {
+		width:inherit;
+		height:25px;
+		background-color:#990000;
+	}
+	
+		.headerRedBackgroundWrapper3Columns h1 {
+			color:#fff;
+			font-size:14px;
+			padding-top:3px;
+			margin-left:12px;
+		}
+		
+		.leftColumnMenuWrapper3Columns, .middleColumnProdottiHomePage, .rightColumnProdottiHomePage {
+			float:left;
+		}
+		
+		.leftColumnMenuWrapper3Columns {
+			width:157px;
+			background:url(../images/back_leftColumn_3Columns/back_leftColumn.jpg) repeat-x;
+		}
+		
+			.wrapperLeftMenu3Columns {
+				width:inherit;
+				padding-top:30px;
+				padding-bottom:30px;
+			}
+			
+				.wrapperLeftMenu3Columns ul {
+					margin-left:10px;
+					font-size:11px;
+				}
+				
+				li.whiteLineBreakUp {
+					margin-top:-6px;
+				}
+				
+				li.whiteLineBreakUp img {
+					margin-left:7px;
+				}
+			
+				.wrapperLeftMenu3Columns ul li a {
+					color:#fff;
+					text-decoration:none;
+				}
+				
+		.middleColumnProdottiHomePage {
+			width:322px;
+			margin-left:5px;
+			background-color:#fff;
+		}
+		
+			.wrapperContentMiddleColumnProdottiHomePage {
+				width:285px;
+				margin-left:auto;
+				margin-right:auto;
+				padding-top:25px;
+			}
+			
+				.wrapperContentMiddleColumnProdottiHomePage h1 {
+					font-size:14px;
+					padding-bottom:15px;
+				}
+				
+				.wrapperContentMiddleColumnProdottiHomePage p {
+					padding-bottom:15px;
+				}
+				
+					.wrapperContentMiddleColumnProdottiHomePage ul li, .wrapperContent1Column ul li {
+						padding-bottom:10px;
+					}
+					
+					.wrapperContentMiddleColumnProdottiHomePage ul li img, .wrapperContent1Column ul li img {
+						position:relative;
+						top:-2px;
+						margin-right:3px;
+					}
+					
+					.wrapperContent1Column ul li img {
+						margin-right:7px;
+					}
+					
+/*css code for prodotti category subcategories*/
+
+.columnMenuSubcategories {
+	width:164px;
+	float:left;
+	background-color:#000;
+}
+
+	.wrapperMenuSubcategories {
+		width:122px;
+		padding-top:22px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+		.wrapperMenuSubcategories ul li {
+			padding-top:8px;
+			padding-bottom:8px;
+			border-bottom:1px solid #fff;
+		}
+	
+		.wrapperMenuSubcategories ul li a {
+			color:#fff;
+			text-decoration:none;
+		}
+		
+		.wrapperMenuSubcategories ul li a:hover {
+			color:#ccc;
+		}
+		
+	.columnPresentationOfProductContent {
+		width:484px;
+		float:left;
+		background-color:#fff;
+		padding-top:30px;
+	}
+	
+		.wrapperContentInfoProduct, .imagesProductCharacteristics {
+			width:445px;
+			margin-left:auto;
+			margin-right:auto;
+		}
+		
+			.textProductCharacteristics, .wrapperLargeImageProduct, .textRestauroDetailedCategory, .wrapperLargeImageRestauroDetailedCategory {
+				width:inherit;
+				padding-bottom:15px;
+				border-bottom:1px solid #CCCCCC;
+			}
+			
+				.textProductCharacteristics h1, .textRestauroDetailedCategory h1 {
+					font-size:14px;
+					padding-bottom:40px;
+				}
+				
+				.textProductCharacteristics p {
+					padding-top:15px;
+				}
+				
+				
+	.imagesProductCharacteristics, .imagesRestauroDetailedCategory {
+		padding-top:30px;
+	}
+				
+		.headerPrintProductCharacteristics {
+			width:inherit;
+			padding-bottom:15px;
+		}
+		
+			.headerPrintProductCharacteristics ul, .headerPrintProductCharacteristics ul li {
+				display:inline;
+			}
+			
+			.headerPrintProductCharacteristics ul li {
+				margin-right:10px;
+			}
+		
+			.headerPrintProductCharacteristics ul li img {
+				position:relative;
+				top:2px;
+				margin-right:5px;
+			}
+		
+			.headerPrintProductCharacteristics ul li a {
+				color:#000;
+				text-decoration:none;
+				font-weight:bold;
+			}
+			
+			.containerSmallImagesProduct, .containerSmallImagesRestauroDetailedCategory {
+				width:inherit;
+				padding-top:15px;
+				padding-bottom:15px;
+			}
+			
+				.wrapperSmallImageProduct, .wrappSmallImageRestauroDetailedCategory {
+					width:110px;
+					float:left;
+					margin-left:1px;
+					text-align:center;
+				}
+				
+				
+/*css code for restauro category*/
+
+.columnRestauroDetailedCategory {
+	width:645px;
+	float:right;
+	background-color:#fff;
+}
+
+	.wrapperContentRestauroDetailedCategory {
+		width:590px;
+		margin-left:auto;
+		margin-right:auto;
+		padding-top:25px;
+	}
+	
+	.imagesRestauroDetailedCategory {
+		width:inherit;
+	}
+	
+/*css code for pages with one column - e.g. profilo, dove, contact*/
+
+.wrapper1Column {
+	padding-top:25px;
+	background-color:#fff;
+	padding-bottom:15px;
+}
+
+	.wrapperContent1Column {
+		width:585px;
+		margin-left:auto;
+		margin-right:auto;
+		border-bottom:1px solid #ccc;
+	}
+	
+		.wrapperContent1Column h1 {
+			font-size:14px;
+			padding-bottom:20px;
+		}
+		
+		.wrapperContent1Column h2 {
+			font-size:12px;
+			color:#990000;
+			padding-bottom:15px;
+		}
+		
+		.wrapperContent1Column p {
+			font-weight:bold;
+			padding-bottom:25px;
+		}
+		
+		.wrapperContent1Column ul {
+			padding-bottom:40px;
+		}
+		
+	ul.nestedUL, ul.nestedUL li, ul.addressInfo, ul.addressInfo li {
+		padding-bottom:0;
+	}
+	
+	ul.addressInfo {
+		padding-bottom:15px;
+	}
+	
+	span.redInitialAddressElements {
+		color:#990000;
+		font-weight:bold;
+	}
+	
+	.containerGoogleMaps {
+		width:inherit;
+	}
+	
+		
+			
